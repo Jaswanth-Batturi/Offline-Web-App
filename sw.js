@@ -1,4 +1,4 @@
-const v = "1.5.0";
+const v = "1.6.0";
 
 addEventListener('install', e => e.waitUntil(
   caches.open(v).then(cache => cache.addAll([
