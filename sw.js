@@ -1,13 +1,13 @@
-const v = "1.2.0";
+const v = "1.5.0";
 
 addEventListener('install', e => e.waitUntil(
   caches.open(v).then(cache => cache.addAll([
-    '/',
-    '/index.html',
-    '/script.js',
-    '/manifest.json',
-    '/images/logo.png',
-    '/favicon.ico'
+    '/Offline-Web-App/',
+    '/Offline-Web-App/index.html',
+    '/Offline-Web-App/script.js',
+    '/Offline-Web-App/manifest.json',
+    '/Offline-Web-App/images/logo.png',
+    '/Offline-Web-App/favicon.ico'
   ]))
 ));
 
