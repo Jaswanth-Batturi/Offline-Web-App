@@ -43,7 +43,7 @@ window.addEventListener('load', function() {
         window.location.reload();
     });
 
-    navigator.serviceWorker.register('../sw.js')
+    navigator.serviceWorker.register('./Offline-Web-App/sw.js')
     .then(function (registration) {
         console.log("Service Worker registration successful: ", registration)
         // Track updates to the Service Worker.
